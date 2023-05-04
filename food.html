@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register Your Favorite Food</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- progress barstle -->
+  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <!-- font wesome stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- Custom Styles -->
+<link href="css/style.css" rel="stylesheet" />
+<!-- responsive style -->
+<link href="css/responsive.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="container">
+    <header class="header_section">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" alt="">
+              <span>
+                Adward
+              </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                <ul class="navbar-nav  ">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="about.html"> About </a>
+                  </li>
+    
+                  <li class="nav-item ">
+                    <a class="nav-link" href="teacher.html"> Teacher </a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="vehicle.html"> vehicle </a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="food.html">Food</a>
+                  </li>
+    
+                </ul>
+                <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                </form>
+              </div>
+          </nav>
+        </div>
+      </header>
+
+  <h2>Register Your Favorite Food</h2>
+  <form action="#" method="post">
+
+    <!-- Name field -->
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+
+    <!-- Email field -->
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="favorite_food"> select Favorite Food:</label>
+      <select class="form-select form-control" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option value="1">Fruits</option>
+        <option value="2">Vegetables</option>
+        <option value="3">Meat and poultry</option>
+        <option value="4">Seafood</option>
+      </select>
+    </div>
+    <!-- Favorite food field -->
+    <div class="form-group">
+      <label for="favorite_food">Favorite Food:</label>
+      <input type="text" class="form-control" id="favorite_food" name="favorite_food" required>
+    </div>
+
+
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary form-control">Submit</button>
+  </form>
+
+
+   <!-- footer section -->
+   <section class="container-fluid footer_section mt-5">
+    <p>
+      Copyright &copy; 2022 All Rights Reserved
+    </p>
+  </section>
+</div>
+
+</body>
+</html>
